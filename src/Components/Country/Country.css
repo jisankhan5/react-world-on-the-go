@@ -2,8 +2,14 @@
   border: 2px solid blueviolet;
   padding: 20px;
   border-radius: 20px;
+  margin: 20px;
+}
+.country img{
+  border-radius: 5px;
+  
 }
 .title {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(2,1fr);
+  gap: 10px;
 }
