@@ -7,6 +7,12 @@
   display: grid;
   grid-template-columns: repeat(3,1fr);
 }
+
+.visited-flag img{
+  width: 100px;
+  margin-right: 10px;
+}
+
 @media screen and (max-width: 576px) {
   .countries{
     display: grid;
